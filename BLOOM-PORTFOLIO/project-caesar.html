@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Caesar Cipher Security Lab | BLOOM</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/project-caesar.css">
+</head>
+
+<body class="project-detail-page caesar-page">
+
+    <!-- CIPHER BACKGROUND -->
+    <div class="caesar-background">
+        <div class="caesar-grid"></div>
+        <div class="caesar-glow glow-one"></div>
+        <div class="caesar-glow glow-two"></div>
+
+        <div class="cipher-letter letter-one">A</div>
+        <div class="cipher-letter letter-two">X</div>
+        <div class="cipher-letter letter-three">M</div>
+        <div class="cipher-letter letter-four">Q</div>
+        <div class="cipher-letter letter-five">Z</div>
+        <div class="cipher-letter letter-six">C</div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="index.html" class="logo">BLOOM<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="resume.html" class="nav-cta">My Resume</a>
+    </header>
+
+    <main class="project-detail-main">
+
+        <!-- BREADCRUMB -->
+        <div class="project-breadcrumb">
+            <a href="projects.html">Projects</a>
+            <span>/</span>
+            <span>Caesar Cipher Security Lab</span>
+        </div>
+
+        <!-- HERO -->
+        <section class="caesar-hero">
+
+            <div class="caesar-hero-content">
+
+                <span class="project-eyebrow">PROJECT 02 / CRYPTOGRAPHY</span>
+
+                <h1>
+                    Caesar Cipher
+                    <span>Security Lab.</span>
+                </h1>
+
+                <p>
+                    Exploring classical cryptography through one of
+                    the earliest substitution ciphers. This project
+                    demonstrates how text can be encrypted and
+                    decrypted using a shift-based technique.
+                </p>
+
+                <div class="caesar-tags">
+                    <span>Python</span>
+                    <span>Cryptography</span>
+                    <span>Encryption</span>
+                    <span>Decryption</span>
+                </div>
+
+                <div class="caesar-actions">
+                    <a
+                        href="https://github.com/A-Irfana-Begam/Caesar-Cipher-Security-Lab"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="caesar-primary-btn"
+                    >
+                        View GitHub Project <span>↗</span>
+                    </a>
+
+                    <a href="#overview" class="caesar-secondary-btn">
+                        Explore Project ↓
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- CIPHER VISUAL -->
+            <div class="caesar-visual">
+
+                <div class="cipher-orbit orbit-one">
+                    <span class="orbit-letter">A</span>
+                    <span class="orbit-letter">B</span>
+                    <span class="orbit-letter">C</span>
+                    <span class="orbit-letter">D</span>
+                    <span class="orbit-letter">E</span>
+                    <span class="orbit-letter">F</span>
+                </div>
+
+                <div class="cipher-orbit orbit-two">
+                    <span class="orbit-letter">X</span>
+                    <span class="orbit-letter">Y</span>
+                    <span class="orbit-letter">Z</span>
+                    <span class="orbit-letter">A</span>
+                    <span class="orbit-letter">B</span>
+                    <span class="orbit-letter">C</span>
+                </div>
+
+                <div class="cipher-center">
+                    <span class="cipher-center-symbol">↻</span>
+                    <span>SHIFT</span>
+                </div>
+
+                <div class="cipher-visual-caption">
+                    <span></span>
+                    LETTER TRANSFORMATION
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- OVERVIEW -->
+        <section class="caesar-section" id="overview">
+
+            <div class="caesar-section-heading">
+                <span>01 / OVERVIEW</span>
+                <h2>A classic idea in cryptography.</h2>
+            </div>
+
+            <div class="caesar-overview-card">
+
+                <div class="caesar-overview-icon">⌘</div>
+
+                <div>
+                    <h3>About the project</h3>
+
+                    <p>
+                        Caesar Cipher Security Lab is a cryptography
+                        project based on the Caesar cipher, a classical
+                        substitution encryption technique.
+                    </p>
+
+                    <p>
+                        It demonstrates how each letter in a message
+                        can be shifted by a fixed number of positions
+                        in the alphabet to create encrypted text.
+                        The reverse shift helps recover the original message.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HOW IT WORKS -->
+        <section class="caesar-section">
+
+            <div class="caesar-section-heading">
+                <span>02 / HOW IT WORKS</span>
+                <h2>From plain text to cipher text.</h2>
+            </div>
+
+            <div class="caesar-process">
+
+                <div class="process-step">
+                    <span class="process-number">01</span>
+                    <div class="process-icon">Aa</div>
+                    <h3>Plain Text</h3>
+                    <p>
+                        Start with the original message
+                        that needs to be protected.
+                    </p>
+                </div>
+
+                <div class="process-connector">→</div>
+
+                <div class="process-step">
+                    <span class="process-number">02</span>
+                    <div class="process-icon">↻</div>
+                    <h3>Shift Value</h3>
+                    <p>
+                        Choose a fixed shift value
+                        to transform alphabet positions.
+                    </p>
+                </div>
+
+                <div class="process-connector">→</div>
+
+                <div class="process-step">
+                    <span class="process-number">03</span>
+                    <div class="process-icon">#</div>
+                    <h3>Cipher Text</h3>
+                    <p>
+                        Each letter is replaced with
+                        its shifted alphabet equivalent.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- EXAMPLE -->
+            <div class="caesar-example">
+
+                <span class="example-label">SIMPLE ENCRYPTION EXAMPLE</span>
+
+                <div class="example-transformation">
+                    <div class="example-item">
+                        <span>ORIGINAL</span>
+                        <strong>HELLO</strong>
+                    </div>
+
+                    <div class="example-arrow">→</div>
+
+                    <div class="example-item">
+                        <span>SHIFT + 3</span>
+                        <strong>KHOOR</strong>
+                    </div>
+                </div>
+
+                <p>
+                    Each letter moves three positions forward
+                    in the alphabet.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- FEATURES -->
+        <section class="caesar-section">
+
+            <div class="caesar-section-heading">
+                <span>03 / PROJECT FOCUS</span>
+                <h2>What the lab explores.</h2>
+            </div>
+
+            <div class="caesar-feature-grid">
+
+                <div class="caesar-feature-card">
+                    <span>01</span>
+                    <div class="feature-icon">↗</div>
+                    <h3>Encryption</h3>
+                    <p>
+                        Transform readable text into
+                        an encoded message using a shift.
+                    </p>
+                </div>
+
+                <div class="caesar-feature-card">
+                    <span>02</span>
+                    <div class="feature-icon">↙</div>
+                    <h3>Decryption</h3>
+                    <p>
+                        Reverse the shift operation
+                        to retrieve the original message.
+                    </p>
+                </div>
+
+                <div class="caesar-feature-card">
+                    <span>03</span>
+                    <div class="feature-icon">⌘</div>
+                    <h3>Classical Cryptography</h3>
+                    <p>
+                        Understand substitution ciphers
+                        and the foundations of encryption.
+                    </p>
+                </div>
+
+                <div class="caesar-feature-card">
+                    <span>04</span>
+                    <div class="feature-icon">◇</div>
+                    <h3>Alphabet Shifting</h3>
+                    <p>
+                        Explore how character positions
+                        change with different shift values.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- LEARNING -->
+        <section class="caesar-section">
+
+            <div class="caesar-section-heading">
+                <span>04 / LEARNING OUTCOMES</span>
+                <h2>What I explored.</h2>
+            </div>
+
+            <div class="caesar-learning">
+
+                <div>
+                    <span>✦</span>
+                    <p>Understanding classical encryption techniques.</p>
+                </div>
+
+                <div>
+                    <span>✦</span>
+                    <p>Learning the relationship between encryption and decryption.</p>
+                </div>
+
+                <div>
+                    <span>✦</span>
+                    <p>Applying logical operations to character transformations.</p>
+                </div>
+
+                <div>
+                    <span>✦</span>
+                    <p>Exploring the fundamentals of cryptographic security.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECT NOTE -->
+        <section class="caesar-note">
+
+            <div class="caesar-note-symbol">✧</div>
+
+            <div>
+                <h2>Every secure message begins with an idea.</h2>
+
+                <p>
+                    This project helped me explore the foundations
+                    of cryptography and understand how simple
+                    mathematical operations can transform information.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- NAVIGATION -->
+        <section class="project-navigation">
+            <a href="project-xor.html">← Previous: XOR File Security</a>
+            <a href="project-generator.html">Next: Password Generator Pro →</a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Designed with passion <span>♥</span> by BLOOM.</p>
+        <a href="index.html">Back to Home ↑</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
